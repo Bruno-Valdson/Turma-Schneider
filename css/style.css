@@ -1,0 +1,105 @@
+/*geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color: #323232;
+    border: none;
+}
+body {
+    background-image: url(../img/415407-uhd-desktop-wallpaper-top-free-uhd-desktop-background.jpg);
+    background-position: top;
+}
+textarea:focus,
+input:focus {
+    outline: none;
+}
+a {
+    font-size: 0.8rem;
+}
+a:hover {
+    color: rgb(30, 30, 110);
+}
+.container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+.form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label,
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+input {
+    border: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus {
+    border-bottom: 2px solid #08558b;
+}
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: aqua;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
+#social-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#social-container ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#social-container ul a:not(first-child) {
+    margin-left: 10px;
+}
+#social-container ul a li {
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #95a5a6;
+}
+#social-cantainer p {
+    margin-bottom: 20px;
+    margin: 1rem 0;
+    text-align: center;
+}
